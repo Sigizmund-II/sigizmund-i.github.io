@@ -1,0 +1,92 @@
+.container{
+    position: absolute;
+width: 500px;
+height: 400px;
+left: 500px;
+top: 250px;
+background: #ECE9D8;
+border: 5px solid #0063c0;
+
+}
+.pizdez{
+    margin-bottom: 12px;
+    font-size: 22px;
+    margin-top: 15px;
+    width: 250px;
+    height: 50px;
+    color:rgb(0, 0, 0);
+}
+
+.numpad{
+    position: absolute;
+width: 385px;
+height: 280px;
+left: 115px;
+top: 84px;
+background: #ECE9D8;
+}
+.upWindow{
+    
+position: relative;
+width: 474px;
+height: 42px;
+left: 12px;
+top: 20px;
+
+background: #FFFFFF;
+border: 1px solid #7F9DB9;
+}
+
+.numberLineFirst{
+    position: relative;
+    top: -5px;
+    right:10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 52px;
+/* identical to box height */
+
+    text-align: end;
+    letter-spacing: 0.02em;
+    font-family: 'Share Tech Mono', monospace;
+    color: #000000;
+}
+
+
+
+button{
+    position: relative;
+    width: 66px;
+    height: 50px;
+    right: 10px;
+    top: -8px;
+    margin-top: 8px;
+    margin-left: 7px;
+    font-size: 24px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F0EA 100%), #F5F5F1;
+    border: 1px solid #003C74;
+    box-shadow: 1px 1px 0px rgba(255, 255, 255, 0.75), -1px -1px 0px rgba(0, 0, 0, 0.05), inset -1px -2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-family: 'Share Tech Mono', monospace;
+    color:blue;
+}
+.big{
+    margin-bottom: 12px;
+    font-size: 22px;
+    margin-top: 15px;
+    width: 118px;
+    height: 50px;
+    color:red;
+}
+.oper{
+    color:red;
+}
+button:hover{
+    box-shadow: 0 0 5px 0 rgba(116, 116, 116, 0.315);
+}
+button:active{
+    border: 2px solid #00396e;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.315);
+}
